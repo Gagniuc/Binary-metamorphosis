@@ -23,8 +23,7 @@ SHA512 File Hash:  9a5c1e2cb40b1a0777e9975c52fdc6798b27e30a11090da6107a63b265220
 Note that tini.exe is a small file (16Kb) and it is used here for providing an exemplification by using smaller VB6 source code. However, one may use any executable file. Moreover, this method can embed any type of file, not only executables.
 
 
-
-
+# Hexadecimal (or hex)
 
 
 Hexadecimal (or hex) is a base 16 system used to simplify how binary is represented. A hex digit can be any of the following 16 digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F.
@@ -54,9 +53,4 @@ This table shows each hex digit with the equivalent values in binary and denary.
 | 15     | 1111   | F           |
 
 
-This means an 8-bit binary number can be written using only two different hex digits - one hex digit for each nibble (or group of 4-bits). It is much easier to write numbers as hex than to write them as binary numbers.
-
-For example:
-
-11010100 in binary would be D4 in hex
-FFFF3 in hex would be 11111111111111110011 in binary
+It is much less time consuming to write numbers as hex than to write them as binary numbers. An 8-bit binary number can be written using only two different hex digits, one hex digit for each group of 4-bits. An 16-bit binary number can be written using only four different hex digits, and so on. For example, an 8-bit binary number like 10100101 would be A5 in hex. An 16-bit binary number like 1011110001101110 would be BC6E in hex. To continue with the exemplification, a hex representation like CCCCC7 would be 110011001100110011000111 in binary.

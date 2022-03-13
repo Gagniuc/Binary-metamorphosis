@@ -8,7 +8,7 @@ These VB6 applications are able to convert any executable file (ie. <kbd>.exe</k
 
 Antivirus engines that lack sophistication or professionalism may popup up false detections in connection to <kbd>tini.exe</kbd>. It is true that the method shown here has been used in the malware world countless times to hide executable files. However, this method proves to be extremely useful for virtuous purposes, such as software automation or for removing dependencies by incorporating certain resources into the compiled file. Thus, coding methods should not be used as signatures for detection by antivirus engines. Otherwise, this would be similar to: "<i>we no longer use uranium in nuclear power plants because atomic bombs can be made with it</i>". Nonetheless, the VB6 source code of <kbd>tine.exe</kbd> is available in the <kbd>tini</kbd> folder and it can be compiled at will. An MD5 comparison of the newly compiled file and the old file uploaded here verifies that <kbd>tini.exe</kbd> is NOT malware. As one can see in the source code of <kbd>tini.exe</kbd>, the application is completely empty and contains a simple window with the message:
 
-<img src="https://github.com/Gagniuc/Binary-metamorphosis/blob/main/img/tini.png" alt="tini.exe">
+<img src="https://github.com/Gagniuc/Binary-metamorphosis/blob/main/img/tini.png" height="200" alt="tini.exe">
 
 The following signatures are expected from the file you are compiling or from the <kbd>tini.exe</kbd> files (aka <kbd>tini.executable</kbd>) already compiled and uploaded here:
 
@@ -42,6 +42,5 @@ The VB6 application shown here uses the hexadecimal system to encode the binary 
 | 13     | 1101   | D           |
 | 14     | 1110   | E           |
 | 15     | 1111   | F           |
-
 
 It is much less time consuming to write numbers as hex than to write them as binary numbers. An 8-bit binary number can be written using only two different hex digits, one hex digit for each group of 4-bits. An 16-bit binary number can be written using only four different hex digits, and so on. For example, an 8-bit binary number like <kbd>10100101</kbd> would be <kbd>A5</kbd> in hex. An 16-bit binary number like <kbd>1011110001101110</kbd> would be <kbd>BC6E</kbd> in hex. To continue with the exemplification, a hex representation like <kbd>CCCCC7</kbd> would be <kbd>110011001100110011000111</kbd> in binary.

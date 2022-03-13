@@ -25,13 +25,7 @@ Note that tini.exe is a small file (16Kb) and it is used here for providing an e
 
 # Hexadecimal (or hex)
 
-
-Hexadecimal (or hex) is a base 16 system used to simplify how binary is represented. A hex digit can be any of the following 16 digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F.
-
-Each hex digit reflects a 4-bit binary sequence.
-
-This table shows each hex digit with the equivalent values in binary and denary.
-
+The VB6 application shown here uses the hexadecimal system to encode the binary content of an executable file. But hat is hexadecimal? Hexadecimal is a base 16 system that is used for binary representation. A hex digit can be any of the following 16 digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F, were each hex digit represents a 4-bit binary sequence. The table below shows the association of each hex digit with the equivalent values in binary and denary:
 
 | Denary | Binary | Hexadecimal |
 | :---   |  :---: |     ---:    |

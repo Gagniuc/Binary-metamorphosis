@@ -13,8 +13,8 @@ Some antivirus engines that lack sophistication or professionalism may popup up 
 The following signatures are expected from the file you are compiling or from the <kbd>tini.exe</kbd> files (aka <kbd>tini.executable</kbd>) already compiled and uploaded here:
 
 ```
-MD5 File Checksum: f0b950acbf1af90eb8e9a52cc6799a08
-SHA512 File Hash:  9a5c1e2cb40b1a0777e9975c52fdc6798b27e30a11090da6107a63b265220caa53d7301c10920d91033c05233bd25c65c216a1ca274eb98e429c63de453ec394
+MD5 File Checksum: 7c0ec696bf28f7c72e200a52f5c80d85
+SHA512 File Hash:  cefa3d2bfe1b8f19bd0e23d5e5ccc3bbda0c44936a4c7f2f1ae3d9b7d1c8c04a0b5139dbf7f65c664f1b7aed86c7bbe6f9ff18cf22ba1cbcc5e491d9fd03debc
 ```
 
 Note that tini.exe is a small file (16Kb) and it is used here for providing an exemplification by using smaller VB6 source code. However, one may use any executable file. Moreover, this method can embed any type of file, not only executables.

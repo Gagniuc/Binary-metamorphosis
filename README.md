@@ -4,6 +4,8 @@ These VB6 applications are able to convert any executable file (ie. <kbd>.exe</k
 
 <img src="https://github.com/Gagniuc/Binary-metamorphosis/blob/main/img/1.png?raw=true" alt="Binary metamorphosis">
 
+<b>Note</b>: The <i>Binary metamorphosis</i> application is appropriate for embedding files with sizes under 1Mb, such as small binaries, small images, .dll files, .ocx files, small sound files, ico files, .docx files, excel files, powerpoint files and so on.
+
 # Regarding tini.exe or tini.executable
 
 Some antivirus engines that lack sophistication or professionalism may popup up false detections in connection to <kbd>tini.exe</kbd>. It is true that the method shown here has been used in the malware world countless times to hide executable files. However, this method proves to be extremely useful for virtuous purposes, such as software automation or for removing dependencies by incorporating certain resources into the compiled file. Thus, coding methods should not be used as signatures for detection by antivirus engines. Otherwise, this would be similar to: "<i>we no longer use uranium in nuclear power plants because atomic bombs can be made with it</i>". Nonetheless, the VB6 source code of <kbd>tine.exe</kbd> is available in the <kbd>tini</kbd> folder and it can be compiled at will. An MD5 comparison of the newly compiled file and the old file uploaded here verifies that <kbd>tini.exe</kbd> is NOT malware. As one can see in the source code of <kbd>tini.exe</kbd>, the application is completely empty and contains a simple window with the message:

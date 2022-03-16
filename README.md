@@ -21,7 +21,6 @@ SHA512 File Hash:  cefa3d2bfe1b8f19bd0e23d5e5ccc3bbda0c44936a4c7f2f1ae3d9b7d1c8c
 
 Note that tini.exe is a small file (16Kb) and it is used here for providing an exemplification by using smaller VB6 source code. However, one may use any executable file. Moreover, this method can embed any type of file, not only executables.
 
-
 # Hexadecimal (or hex)
 
 The VB6 application shown here uses the hexadecimal system to encode the binary content of an executable file. But hat is hexadecimal? Hexadecimal is a base 16 system that is used for binary representation. A hex digit can be any of the following 16 digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, were each hex digit represents a 4-bit binary sequence. The table below shows the association of each hex digit with the equivalent values in binary and denary:
